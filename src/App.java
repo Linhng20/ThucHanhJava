@@ -1,7 +1,10 @@
+import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
-        String msg = "My name is Linh, nice to meet you!";
-        System.out.println(msg);
-        System.out.println("Hello");
+        Scanner sc = new Scanner (System.in);
+        String hoTen = "";
+        System.out.println("Nhap ho ten: ");
+        hoTen = sc.nextLine();
+        System.out.println("Hello " +hoTen);
     }
 }
